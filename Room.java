@@ -19,7 +19,7 @@ public class Room {
         this.hasBoss = false;
         this.enemyCount = 0;
         this.isDark = isDark;
-        this.enemyDamage = 5; // Default enemy damage
+        this.enemyDamage = 5; 
     }
 
     public void setExit(String direction, Room room) {

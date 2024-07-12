@@ -8,11 +8,11 @@ public class Player {
     private Item equippedItem;
 
     public Player(Room startRoom) {
-        this.health = 100; // Starting health
+        this.health = 100; 
         this.inventory = new Inventory();
         this.currentRoom = startRoom;
         
-        // Adding initial items to the player's inventory
+
         this.inventory.addItem(new Item("knife", "A sharp knife. Useful for self-defense."));
         this.inventory.addItem(new Item("map", "A map of the bunker."));
     }
